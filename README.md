@@ -12,7 +12,10 @@ A developers quiz.
 ## Website
 https://kwerrell73.github.io/code-quiz/.
 
-## Screenshot
+## Screenshots
+![](./assets/images/screenshots/codequiz.png)
+
+![](./assets/images/screenshots/highscores.png)
 
 ## Contribution
 Created by Kellie Werrell :star:
