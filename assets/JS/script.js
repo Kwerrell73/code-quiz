@@ -126,7 +126,8 @@ function startQuiz() {
     }, 1000);
     quizBody.style.display = "block";
 }
-// This function is the end page screen that displays your score after either completeing the quiz or upon timer run out
+
+// This function is the end page screen that displays your score after either completing the quiz or upon timer run out
 function showScore() {
     quizBody.style.display = "none"
     gameoverDiv.style.display = "flex";
@@ -219,6 +220,7 @@ function checkAnswer(answer) {
         //display in the results div that the answer is correct.
     } else if (answer !== correct && currentQuestionIndex !== finalQuestionIndex) {
         alert("That Is Incorrect.")
+        timeLeft -= 10; 
         currentQuestionIndex++;
         generateQuizQuestion();
         //display in the results div that the answer is wrong.
