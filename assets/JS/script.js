@@ -119,7 +119,7 @@ function startQuiz() {
         timeLeft--;
         quizTimer.textContent = "Time left: " + timeLeft;
 
-        if (timeLeft === 0) {
+        if (timeLeft <=  0) {
             clearInterval(timerInterval);
             showScore();
         }
